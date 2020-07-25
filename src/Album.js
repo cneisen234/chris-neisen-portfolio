@@ -12,7 +12,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
-import MusicBable from "./images/music_bable.png"
+import MusicBabel from "./images/music_bable.png"
 import MovieGallery from "./images/movie_gallery.png";
 import Survey from "./images/survey.png";
 import ToDoList from "./images/To_Do_List.png";
@@ -121,10 +121,10 @@ export default function Album() {
           <Grid container spacing={4}>
             <Grid xs={12} sm={6}>
               <Card className={classes.card}>
-                <CardMedia className={classes.cardMedia} image={MusicBable} />
+                <CardMedia className={classes.cardMedia} image={MusicBabel} />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Music Bable
+                    Music Babel
                   </Typography>
                   <Typography>
                     A music community app. Users can recommend songs, rate and
