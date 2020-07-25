@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/chris-neisen-portfolio/static/css/main.a2540f4d.chunk.css",
+    "main.js": "/chris-neisen-portfolio/static/js/main.624e44a0.chunk.js",
+    "main.js.map": "/chris-neisen-portfolio/static/js/main.624e44a0.chunk.js.map",
+    "runtime-main.js": "/chris-neisen-portfolio/static/js/runtime-main.3f679568.js",
+    "runtime-main.js.map": "/chris-neisen-portfolio/static/js/runtime-main.3f679568.js.map",
+    "static/js/2.656e4e9d.chunk.js": "/chris-neisen-portfolio/static/js/2.656e4e9d.chunk.js",
+    "static/js/2.656e4e9d.chunk.js.map": "/chris-neisen-portfolio/static/js/2.656e4e9d.chunk.js.map",
+    "index.html": "/chris-neisen-portfolio/index.html",
+    "precache-manifest.13756d280d53f6436aed534116e32a75.js": "/chris-neisen-portfolio/precache-manifest.13756d280d53f6436aed534116e32a75.js",
+    "service-worker.js": "/chris-neisen-portfolio/service-worker.js",
+    "static/css/main.a2540f4d.chunk.css.map": "/chris-neisen-portfolio/static/css/main.a2540f4d.chunk.css.map",
+    "static/js/2.656e4e9d.chunk.js.LICENSE.txt": "/chris-neisen-portfolio/static/js/2.656e4e9d.chunk.js.LICENSE.txt",
+    "static/media/To_Do_List.png": "/chris-neisen-portfolio/static/media/To_Do_List.b2824a4b.png",
+    "static/media/movie_gallery.png": "/chris-neisen-portfolio/static/media/movie_gallery.4385aa54.png",
+    "static/media/music_bable.png": "/chris-neisen-portfolio/static/media/music_bable.cee66db4.png",
+    "static/media/survey.png": "/chris-neisen-portfolio/static/media/survey.569f1b0d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f679568.js",
+    "static/js/2.656e4e9d.chunk.js",
+    "static/css/main.a2540f4d.chunk.css",
+    "static/js/main.624e44a0.chunk.js"
+  ]
+}
