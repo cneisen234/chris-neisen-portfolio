@@ -2,6 +2,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -72,8 +73,47 @@ export default function Album() {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
+          <Typography
+            style={{
+              width: "90%",
+            }}
+            variant="h6"
+            color="inherit"
+            noWrap
+          >
             Christopher J Neisen's Portfolio
+          </Typography>
+          <Typography
+            style={{
+              width: "5%",
+            }}
+          >
+            {" "}
+            <Link
+              style={{
+                textDecoration: "none",
+              }}
+              color="inherit"
+              href="https://github.com/cneisen234"
+            >
+              <GitHubIcon />
+            </Link>{" "}
+          </Typography>
+          <Typography
+            style={{
+              width: "5%",
+            }}
+          >
+            {" "}
+            <Link
+              style={{
+                textDecoration: "none",
+              }}
+              color="inherit"
+              href="https://www.linkedin.com/in/chris-neisen-95678619b/"
+            >
+              <LinkedInIcon />
+            </Link>{" "}
           </Typography>
         </Toolbar>
       </AppBar>
@@ -114,19 +154,19 @@ export default function Album() {
               fulfillment of a lifelong dream and couldn't be happier. I've
               always had an interest in what goes on behind the scenes of
               software systems. I’ve invested a lot of time diving deep and I'm
-              always determined to learning and growing more. <br /> <br /> In my free time I
-              like to play volleyball and tennis. I love to swim at the lakes
-              and I also enjoy hiking. One of my favorite ways to spend a summer
-              evening is around a bonfire with friends. I also love listening to
-              music. <br /> <br /> I have a drive and passion to do a job and do it well and
-              to become my best self. I'm always seeking to learn and grow and
-              improve myself in every way. I have a gift where I easily inspire
-              others to do their best as well and know how to keep people
-              motivated to the goals they have and can easily lead people in the
-              right direction if they get off track. I have leadership
-              experience both professionally as well as personally, I'm also a
-              very likable person, and that allows me to bring a lot to the
-              table.
+              always determined to learning and growing more. <br /> <br /> In
+              my free time I like to play volleyball and tennis. I love to swim
+              at the lakes and I also enjoy hiking. One of my favorite ways to
+              spend a summer evening is around a bonfire with friends. I also
+              love listening to music. <br /> <br /> I have a drive and passion
+              to do a job and do it well and to become my best self. I'm always
+              seeking to learn and grow and improve myself in every way. I have
+              a gift where I easily inspire others to do their best as well and
+              know how to keep people motivated to the goals they have and can
+              easily lead people in the right direction if they get off track. I
+              have leadership experience both professionally as well as
+              personally, I'm also a very likable person, and that allows me to
+              bring a lot to the table.
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
