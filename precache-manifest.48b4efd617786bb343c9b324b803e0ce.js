@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6e6f2fcb1fc2687358323ef34f8b0de",
+    "revision": "c795cfee78e1b0b75323104e8dfa87c8",
     "url": "/chris-neisen-portfolio/index.html"
   },
   {
-    "revision": "fc6f1a9d0c023348a43f",
-    "url": "/chris-neisen-portfolio/static/css/main.a2540f4d.chunk.css"
+    "revision": "5895ec6d5d9a7b7ccdd7",
+    "url": "/chris-neisen-portfolio/static/css/main.266173d9.chunk.css"
   },
   {
-    "revision": "ca2b3c7a41aeaf9ea868",
-    "url": "/chris-neisen-portfolio/static/js/2.656e4e9d.chunk.js"
+    "revision": "515c641e1ec6bd890421",
+    "url": "/chris-neisen-portfolio/static/js/2.549bc04d.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/chris-neisen-portfolio/static/js/2.656e4e9d.chunk.js.LICENSE.txt"
+    "url": "/chris-neisen-portfolio/static/js/2.549bc04d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc6f1a9d0c023348a43f",
-    "url": "/chris-neisen-portfolio/static/js/main.04cbab3e.chunk.js"
+    "revision": "5895ec6d5d9a7b7ccdd7",
+    "url": "/chris-neisen-portfolio/static/js/main.1fe7d7cb.chunk.js"
   },
   {
     "revision": "3099dfddbfbf7380a98e",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cee66db49e4fc1c8b4c415395003a011",
     "url": "/chris-neisen-portfolio/static/media/music_bable.cee66db4.png"
+  },
+  {
+    "revision": "0527a32d34ab694882f7fd1c47149934",
+    "url": "/chris-neisen-portfolio/static/media/professional.0527a32d.jpg"
   },
   {
     "revision": "569f1b0d2255403df8592b0beef43916",
