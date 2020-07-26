@@ -3,6 +3,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import PhoneIcon from "@material-ui/icons/Phone";
+import EmailIcon from "@material-ui/icons/Email";
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -75,13 +77,21 @@ export default function Album() {
         <Toolbar>
           <Typography
             style={{
-              width: "90%",
+              width: "60%",
             }}
             variant="h6"
             color="inherit"
             noWrap
           >
             Christopher J Neisen's Portfolio
+          </Typography>
+          <Typography
+            style={{
+              width: "30%",
+            }}
+          >
+            <PhoneIcon /> {" "} 701-429-4837 <br />
+            <EmailIcon />{" "} christopherjay71186@gmail.com
           </Typography>
           <Typography
             style={{
