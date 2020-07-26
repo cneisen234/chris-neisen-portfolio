@@ -1,6 +1,7 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
+import GitHubIcon from "@material-ui/icons/GitHub";
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -15,6 +16,7 @@ import Link from '@material-ui/core/Link';
 import MusicBabel from "./images/music_bable.png"
 import MovieGallery from "./images/movie_gallery.png";
 import Survey from "./images/survey.png";
+import ProfilePic from "./images/professional.jpg";
 import ToDoList from "./images/To_Do_List.png";
 
 function Copyright() {
@@ -86,16 +88,45 @@ export default function Album() {
               color="textPrimary"
               gutterBottom
             >
-              Portfolio
+              Christopher Neisen
             </Typography>
+            <img
+              style={{
+                width: "30%",
+                float: "left",
+                borderRadius: "100%",
+                margin: 10,
+              }}
+              className="profilepic"
+              src={ProfilePic}
+              alt="me"
+            ></img>
             <Typography
+              style={{
+                textAlign: "justify",
+              }}
               variant="h5"
               align="center"
               color="textSecondary"
               paragraph
             >
-              A list of projects I made using a varity of techologies. You can
-              view my resume by clicking below.
+              Professional software engineer! I am currently living out the
+              fulfillment of a lifelong dream and couldn't be happier. I've
+              always had an interest in what goes on behind the scenes of
+              software systems. I’ve invested a lot of time diving deep and I'm
+              always determined to learning and growing more. <br /> <br /> In my free time I
+              like to play volleyball and tennis. I love to swim at the lakes
+              and I also enjoy hiking. One of my favorite ways to spend a summer
+              evening is around a bonfire with friends. I also love listening to
+              music. <br /> <br /> I have a drive and passion to do a job and do it well and
+              to become my best self. I'm always seeking to learn and grow and
+              improve myself in every way. I have a gift where I easily inspire
+              others to do their best as well and know how to keep people
+              motivated to the goals they have and can easily lead people in the
+              right direction if they get off track. I have leadership
+              experience both professionally as well as personally, I'm also a
+              very likable person, and that allows me to bring a lot to the
+              table.
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
@@ -108,7 +139,7 @@ export default function Album() {
                       color="inherit"
                       href="https://docs.google.com/document/d/11ieH6lMNW8W67YM0Ms8W2nSe2reLxzHDn-5UTIXaBLc/edit?usp=sharing"
                     >
-                      Click here to see resume
+                      View resume
                     </Link>{" "}
                   </Button>
                 </Grid>
@@ -140,7 +171,14 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
+                  <Button
+                    style={{
+                      width: "100%",
+                      backgroundColor: "lightblue",
+                    }}
+                    size="large"
+                    color="primary"
+                  >
                     <Link
                       style={{
                         textDecoration: "none",
@@ -148,19 +186,16 @@ export default function Album() {
                       color="inherit"
                       href="https://github.com/cneisen234/music_babel"
                     >
-                      View
+                      View GitHub
                     </Link>{" "}
+                    <GitHubIcon />
                   </Button>
                 </CardActions>
               </Card>
             </Grid>
             <Grid xs={12} sm={6}>
               <Card className={classes.card}>
-                <CardMedia
-                  className={classes.cardMedia}
-                  image={MovieGallery}
-                  title="Image title"
-                />
+                <CardMedia className={classes.cardMedia} image={MovieGallery} />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
                     Movie Gallery
@@ -180,15 +215,25 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Link
+                  <Button
                     style={{
-                      textDecoration: "none",
+                      width: "100%",
+                      backgroundColor: "lightblue",
                     }}
-                    color="inherit"
-                    href="https://github.com/cneisen234/Movie-Gallery"
+                    size="large"
+                    color="primary"
                   >
-                    View
-                  </Link>{" "}
+                    <Link
+                      style={{
+                        textDecoration: "none",
+                      }}
+                      color="inherit"
+                      href="https://github.com/cneisen234/Movie-Gallery"
+                    >
+                      View GitHub
+                    </Link>{" "}
+                    <GitHubIcon />
+                  </Button>
                 </CardActions>
               </Card>
             </Grid>
@@ -219,7 +264,14 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
+                  <Button
+                    style={{
+                      width: "100%",
+                      backgroundColor: "lightblue",
+                    }}
+                    size="large"
+                    color="primary"
+                  >
                     <Link
                       style={{
                         textDecoration: "none",
@@ -227,8 +279,9 @@ export default function Album() {
                       color="inherit"
                       href="https://github.com/cneisen234/Survey-Feedback-form"
                     >
-                      View
+                      View GitHub
                     </Link>{" "}
+                    <GitHubIcon />
                   </Button>
                 </CardActions>
               </Card>
@@ -257,15 +310,25 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Link
+                  <Button
                     style={{
-                      textDecoration: "none",
+                      width: "100%",
+                      backgroundColor: "lightblue",
                     }}
-                    color="inherit"
-                    href="https://github.com/cneisen234/to-do-list-2.0"
+                    size="large"
+                    color="primary"
                   >
-                    View
-                  </Link>{" "}
+                    <Link
+                      style={{
+                        textDecoration: "none",
+                      }}
+                      color="inherit"
+                      href="https://github.com/cneisen234/to-do-list-2.0"
+                    >
+                      View GitHub
+                    </Link>{" "}
+                    <GitHubIcon />
+                  </Button>
                 </CardActions>
               </Card>
             </Grid>
