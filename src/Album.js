@@ -211,25 +211,25 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
+                  <Link
                     style={{
-                      width: "100%",
-                      backgroundColor: "lightblue",
+                      textDecoration: "none",
                     }}
-                    size="large"
-                    color="primary"
+                    color="inherit"
+                    href="https://github.com/cneisen234/music_babel"
                   >
-                    <Link
+                    <Button
                       style={{
-                        textDecoration: "none",
+                        width: "100%",
+                        backgroundColor: "lightblue",
                       }}
-                      color="inherit"
-                      href="https://github.com/cneisen234/music_babel"
+                      size="large"
+                      color="primary"
                     >
                       View GitHub
-                    </Link>{" "}
-                    <GitHubIcon />
-                  </Button>
+                      <GitHubIcon />
+                    </Button>
+                  </Link>{" "}
                 </CardActions>
               </Card>
             </Grid>
@@ -255,25 +255,25 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
+                  <Link
                     style={{
-                      width: "100%",
-                      backgroundColor: "lightblue",
+                      textDecoration: "none",
                     }}
-                    size="large"
-                    color="primary"
+                    color="inherit"
+                    href="https://github.com/cneisen234/Movie-Gallery"
                   >
-                    <Link
+                    <Button
                       style={{
-                        textDecoration: "none",
+                        width: "100%",
+                        backgroundColor: "lightblue",
                       }}
-                      color="inherit"
-                      href="https://github.com/cneisen234/Movie-Gallery"
+                      size="large"
+                      color="primary"
                     >
                       View GitHub
-                    </Link>{" "}
-                    <GitHubIcon />
-                  </Button>
+                      <GitHubIcon />
+                    </Button>
+                  </Link>{" "}
                 </CardActions>
               </Card>
             </Grid>
@@ -304,25 +304,25 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
+                  <Link
                     style={{
-                      width: "100%",
-                      backgroundColor: "lightblue",
+                      textDecoration: "none",
                     }}
-                    size="large"
-                    color="primary"
+                    color="inherit"
+                    href="https://github.com/cneisen234/Survey-Feedback-form"
                   >
-                    <Link
+                    <Button
                       style={{
-                        textDecoration: "none",
+                        width: "100%",
+                        backgroundColor: "lightblue",
                       }}
-                      color="inherit"
-                      href="https://github.com/cneisen234/Survey-Feedback-form"
+                      size="large"
+                      color="primary"
                     >
                       View GitHub
-                    </Link>{" "}
-                    <GitHubIcon />
-                  </Button>
+                      <GitHubIcon />
+                    </Button>
+                  </Link>{" "}
                 </CardActions>
               </Card>
             </Grid>
@@ -350,25 +350,25 @@ export default function Album() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
+                  <Link
                     style={{
-                      width: "100%",
-                      backgroundColor: "lightblue",
+                      textDecoration: "none",
                     }}
-                    size="large"
-                    color="primary"
+                    color="inherit"
+                    href="https://github.com/cneisen234/to-do-list-2.0"
                   >
-                    <Link
+                    <Button
                       style={{
-                        textDecoration: "none",
+                        width: "100%",
+                        backgroundColor: "lightblue",
                       }}
-                      color="inherit"
-                      href="https://github.com/cneisen234/to-do-list-2.0"
+                      size="large"
+                      color="primary"
                     >
                       View GitHub
-                    </Link>{" "}
-                    <GitHubIcon />
-                  </Button>
+                      <GitHubIcon />
+                    </Button>
+                  </Link>{" "}
                 </CardActions>
               </Card>
             </Grid>
