@@ -213,6 +213,7 @@ export default function Album() {
                 <CardActions>
                   <Link
                     style={{
+                      width: "100%",
                       textDecoration: "none",
                     }}
                     color="inherit"
@@ -220,7 +221,6 @@ export default function Album() {
                   >
                     <Button
                       style={{
-                        width: "100%",
                         backgroundColor: "lightblue",
                       }}
                       size="large"
@@ -257,6 +257,7 @@ export default function Album() {
                 <CardActions>
                   <Link
                     style={{
+                      width: "100%",
                       textDecoration: "none",
                     }}
                     color="inherit"
@@ -264,7 +265,6 @@ export default function Album() {
                   >
                     <Button
                       style={{
-                        width: "100%",
                         backgroundColor: "lightblue",
                       }}
                       size="large"
@@ -306,6 +306,7 @@ export default function Album() {
                 <CardActions>
                   <Link
                     style={{
+                      width: "100%",
                       textDecoration: "none",
                     }}
                     color="inherit"
@@ -313,7 +314,6 @@ export default function Album() {
                   >
                     <Button
                       style={{
-                        width: "100%",
                         backgroundColor: "lightblue",
                       }}
                       size="large"
@@ -352,6 +352,7 @@ export default function Album() {
                 <CardActions>
                   <Link
                     style={{
+                      width: "100%",
                       textDecoration: "none",
                     }}
                     color="inherit"
@@ -359,7 +360,6 @@ export default function Album() {
                   >
                     <Button
                       style={{
-                        width: "100%",
                         backgroundColor: "lightblue",
                       }}
                       size="large"
