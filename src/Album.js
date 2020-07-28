@@ -77,21 +77,13 @@ export default function Album() {
         <Toolbar>
           <Typography
             style={{
-              width: "60%",
+              width: "90%",
             }}
             variant="h6"
             color="inherit"
             noWrap
           >
             Christopher J Neisen's Portfolio
-          </Typography>
-          <Typography
-            style={{
-              width: "30%",
-            }}
-          >
-            <PhoneIcon /> {" "} 701-429-4837 <br />
-            <EmailIcon />{" "} christopherjay71186@gmail.com
           </Typography>
           <Typography
             style={{
@@ -140,12 +132,16 @@ export default function Album() {
             >
               Christopher Neisen
             </Typography>
+            <Typography style={{textAlign: "center"}}>
+              <PhoneIcon /> 701-429-4837 <br />
+              <EmailIcon /> christopherjay71186@gmail.com
+            </Typography> <br />
             <img
               style={{
                 width: "30%",
-                float: "left",
                 borderRadius: "100%",
                 margin: 10,
+                float: "left",
               }}
               className="profilepic"
               src={ProfilePic}
