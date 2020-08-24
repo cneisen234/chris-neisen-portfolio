@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8895a5c36972dcf1b93cb74d044ed823",
+    "revision": "eb057d7d9a7ccb94afa4aa5bd88d8bdb",
     "url": "/chris-neisen-portfolio/index.html"
   },
   {
-    "revision": "756cc199940830695390",
+    "revision": "2c7a280eb07640f74157",
     "url": "/chris-neisen-portfolio/static/css/main.266173d9.chunk.css"
   },
   {
-    "revision": "0bd7b798cf9261a15e66",
-    "url": "/chris-neisen-portfolio/static/js/2.766f799f.chunk.js"
+    "revision": "b0096b5c19a5757116f7",
+    "url": "/chris-neisen-portfolio/static/js/2.2f83df6e.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/chris-neisen-portfolio/static/js/2.766f799f.chunk.js.LICENSE.txt"
+    "url": "/chris-neisen-portfolio/static/js/2.2f83df6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "756cc199940830695390",
-    "url": "/chris-neisen-portfolio/static/js/main.82c7a8de.chunk.js"
+    "revision": "2c7a280eb07640f74157",
+    "url": "/chris-neisen-portfolio/static/js/main.b62be608.chunk.js"
   },
   {
     "revision": "3099dfddbfbf7380a98e",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b2824a4bd12b404507d4fe63c9cc5645",
     "url": "/chris-neisen-portfolio/static/media/To_Do_List.b2824a4b.png"
+  },
+  {
+    "revision": "1d49f5de38d5c7af3b99b6979b4bc5b2",
+    "url": "/chris-neisen-portfolio/static/media/legacy.1d49f5de.png"
   },
   {
     "revision": "4385aa5446e54abfd1da7b79cea3fc42",
